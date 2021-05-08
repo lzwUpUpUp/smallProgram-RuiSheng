@@ -1,0 +1,277 @@
+page {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	/* overflow: hidden; */
+}
+
+image {
+	width: 100%;
+	height: 100%;
+}
+
+input {
+	width: 360rpx;
+	height: 70rpx;
+	background-color: #ffffff;
+	/* border-radius: 12rpx; */
+	border: 0rpx solid #999999;
+	box-sizing: border-box;
+	padding-left: 4rpx;
+	margin-left: 200rpx;
+	margin-top: 10rpx;
+	font-size: 24rpx;
+	text-align: center;
+	color: rgba(170, 170, 170, 1);
+	border-bottom: 1rpx solid #363636;
+
+}
+
+.signUp-btn {
+	width: 480rpx;
+	height: 92rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+	margin-left: 134rpx;
+	background-image: url('../../static/img/indexBtn.png');
+	background-size: 100% 100%;
+	margin-left: 75rpx;
+	margin-top: 60rpx;
+
+}
+
+.signUp-btn p {
+	width: 480rpx;
+	height: 64rpx;
+	border-radius: 48rpx;
+	text-align: center;
+	line-height: 52rpx;
+	color: #ffffff;
+	font-size: 24rpx;
+}
+
+.box {
+	position: fixed;
+	width: 630rpx;
+	height: 450rpx;
+	background-image: url('../../static/img/indexBack.png');
+	background-size: 100% 100%;
+	bottom: 40%;
+	left: 64rpx;
+	overflow: hidden;
+
+}
+
+.userName {
+	width: 426rpx;
+	height: 70rpx;
+	background: rgba(246, 246, 246, 0);
+	border: 1px solid #FF6A07;
+	border-radius: 24px;
+	text-align: left;
+	padding-left: 16rpx;
+	margin-left: 104rpx;
+	color: #2d2d2d;
+	margin-top: 75rpx;
+
+
+}
+
+.userPhone {
+	width: 426rpx;
+	height: 70rpx;
+	background: rgba(246, 246, 246, 0);
+	border: 1px solid #FF6A07;
+	border-radius: 24px;
+	text-align: left;
+	padding-left: 16rpx;
+	color: #2d2d2d;
+	margin-left: 104rpx;
+	margin-top: 30rpx;
+}
+
+/* 报名按钮 */
+.suspensionShow {
+	width: 130rpx;
+	height: 130rpx;
+	background-image: url('../../static/img/indexSign.png');
+	background-size: 100% 100%;
+	position: fixed;
+	right: 12rpx;
+	bottom: 52%;
+}
+
+/*  隐藏按钮*/
+.suspensionDisapper {
+	width: 120rpx;
+	height: 130rpx;
+	background-image: url('../../static/img/indexDis.png');
+	background-size: 100% 100%;
+	position: fixed;
+	right: 20rpx;
+	bottom: 152rpx;
+}
+
+.vhtml {
+	width: 100%;
+	height: 100%;
+}
+
+.vhtml img {
+	width: 100%;
+	height: 50
+}
+
+.ql-video {
+	height: 200rpx;
+	width: 200rpx;
+}
+
+#videoBox {
+	position: fixed;
+	top: 10%;
+	width: 750rpx;
+	height: 440rpx;
+}
+.closeTab{
+	width: 100%;
+	height: 72rpx;
+	background-color: #3e3e3e;
+	position: relative;
+}
+.closeTab text{
+	color: #939393;
+	position: absolute;
+	right: 22rpx; 
+	font-size: 30rpx;
+	line-height: 82rpx;
+	width: 68rpx;
+	text-align: center;
+	height: 82rpx;
+   z-index: 10000;
+}
+#myVideo {
+	width: 750rpx;
+	height: 370rpx;
+}
+
+/* 价格、立即报名 */
+.call-signUp {
+	position: fixed;
+	bottom: 0;
+	z-index: 100;
+	width: 750rpx;
+	height: 128rpx;
+	background-color: rgba(247, 247, 247, 0.7);
+}
+
+.call-signUp .call-box {
+	width: 270rpx;
+	height: 128rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FF8E43;
+	float: left;
+}
+
+.call-signUp .call-box image {
+	margin-right: 10rpx;
+	width: 28rpx;
+	height: 28rpx;
+	vertical-align: middle;
+
+}
+
+.call-signUp .call-box .price {
+	font-size: 38px;
+	font-family: Noto Sans S Chinese;
+	font-weight: 400;
+}
+
+/* 立即报名 */
+.call-signUp .signUp-box {
+	width: 480rpx;
+	height: 128rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+
+.signUp-box p {
+	width: 450rpx;
+	height: 74rpx;
+	background: -webkit-linear-gradient(top, #FF9650 0%, #FF6600 100%);
+	border-radius: 48rpx;
+	text-align: center;
+	line-height: 74rpx;
+	color: #ffffff;
+	font-size: 24rpx;
+}
+/* 音频按钮 */
+.audioBtn{
+	width: 70rpx;
+	height: 70rpx;
+	position: fixed;
+	top: 100rpx;
+	right: 50rpx;
+	border-radius: 50%;
+	background-image: url('../../static/img/rotating.png');
+	background-size: 100% 100%;
+}
+.liner{
+	width: 100%;
+	height: 5rpx;
+	background-color: #ffffff;
+	transform:rotate(40deg);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+#rotating{
+	transition: 0.5s;
+	animation: rotate 6s linear infinite;  
+} 
+
+ @keyframes rotate{
+    0%{
+        transform: rotate(0);
+      }
+    50%{
+    	transform:rotate(180deg);
+    }
+    100%{
+         transform: rotate(360deg);
+    	}
+	}
+ 
+/* 分享按钮 */
+.goodsShare{
+	width: 180rpx;
+	height: 56rpx;
+	background-image: url("../../static/img/goodsShare.png");
+	background-size: 100% 100%;
+	position: fixed;
+	right: 0;
+	top: 30%; 	 
+	border:none;
+	border-radius: 20rpx 0 0 20rpx;
+	z-index: 1000;
+}
+.goodsShare::after{
+	content: " ";
+	width: 200%;
+	height: 200%;
+	border: none !important;
+} 

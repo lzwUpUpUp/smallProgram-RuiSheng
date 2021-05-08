@@ -1,0 +1,147 @@
+page {
+	width: 100%;
+	height: 100%;
+	background-color: #F2F4F7;
+	padding: 0;
+	margin: 0;
+}
+
+.personal-head {
+	width: 750rpx;
+	height: 372rpx;
+	position: r1;
+	position: relative;
+	background-image: url(../../static/img/back.png);
+	background-size: 750rpx 300rpx;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.parsonBack {
+	width: 750rpx;
+	height: 300rpx;
+	z-index: 10;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+}
+
+/* 头像部分 */
+.Head-portrait {
+	width: 750rpx;
+	height: 130rpx;
+	margin-top: 40rpx;
+}
+
+.headPic {
+	width: 112rpx;
+	height: 112rpx;
+	border-radius: 50%;
+	vertical-align: top;
+	margin-left: 40rpx;
+	margin-right: 20rpx;
+}
+
+.Head-portrait text {
+	font-size: 36rpx;
+	font-family: Noto Sans S Chinese;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	line-height: 38px;
+	letter-spacing: 1rpx;
+}
+
+/* 我的收藏、订单管理、卡券包、推广奖金 */
+.myDetail {
+	width: 680rpx;
+	height: 142rpx;
+	background-color: #ffffff;
+	border-radius: 28rpx;
+	margin-top: 10rpx;
+	margin-left: 35rpx;
+	display: flex;
+	justify-content: space-around;
+}
+
+.myDetail view {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.myDetail view text {
+	display: block;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	line-height: 90rpx;
+	font-size: 50rpx;
+	font-family: Noto Sans S Chinese;
+	font-weight: 400;
+	color: rgba(51, 51, 51, 1);
+
+}
+.myDetail view image{
+	width: 60rpx;
+	height: 60rpx;
+	
+}
+
+.myDetail view p {
+	font-size: 32rpx;
+	font-family: Noto Sans S Chinese;
+	font-weight: 400;
+	color: #333333;
+	line-height: 38px;
+}
+
+/* 登录按钮 */
+.bottom {
+	background: -webkit-linear-gradient(top, #FF964F 0%, #FF6701 100%);
+	width: 600rpx;
+	border-radius: 48rpx;
+	color: #FFFFFF;
+	position: fixed;
+	bottom: 50rpx;
+	left: 75rpx;
+}
+
+
+/* 中间部分 */
+.middle-Part {
+	width: 750rpx;
+	background-color: #ffffff;
+	padding: 0 48rpx 0 48rpx;
+}
+
+.middle-detail {
+	width: 654rpx;
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	position: relative;
+	border-bottom: 1rpx solid rgba(28, 38, 57, 0.1);
+}
+
+.middle-Part image {
+	width: 30rpx;
+	height: 34rpx;
+}
+
+.middle-Part text {
+	margin-left: 26rpx;
+	font-size: 32rpx;
+	font-family: Noto Sans S Chinese;
+	font-weight: 400;
+	color: rgba(37, 39, 55, 1);
+	/* line-height: 111px; */
+}
+
+.middle-Part .into {
+	color: #CACAD6;
+	position: absolute;
+	right: 0;
+	font-size: 38rpx;
+}

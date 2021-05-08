@@ -1,0 +1,220 @@
+page {
+	width: 100%;
+	height: 100%;
+	background-color: #F2F4F7;
+}
+
+/* 头部选择范围 */
+.head{
+	width: 100%;
+	height: 62rpx;
+	display: flex;
+	/* justify-content: space-around; */
+	align-items: center;
+	background-color: #ffffff;
+	margin-bottom: 10rpx;
+	margin-top: 10rpx;
+}
+.head li{
+	width: 33%;
+	height: 100%;
+	position: relative;
+	list-style: none;
+	list-style: #333;
+	font-size: 28rpx;
+	height: 62rpx;
+	line-height: 62rpx;
+	text-align: center;
+}
+
+
+
+
+.chooseTitle{
+	color: #FF6600;
+}
+.chooseTitle::after {
+	content: "";
+	position: absolute;
+	bottom: 1rpx;
+	left: 0;
+	background-color: #FF6600;
+	width: 100%;
+	height: 4rpx;
+	border-radius: 8rpx;
+}
+
+
+/* 当没有此类订单时显示的无订单提示 */
+.showIcon{
+	width: 100%;
+	height: 180rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.showIcon image{
+	width: 100rpx;
+	height: 100rpx;
+}
+.showText{
+	color: #333;
+	text-align: center;
+	font-size: 26rpx;
+	margin-top: 60rpx;
+
+}
+
+
+.management-box{
+	margin-top: 18rpx;
+	background-color: #ffffff;
+	width: 750rpx;
+	height: 326rpx;
+	padding: 30rpx;
+    position: relative;
+}
+.management-box-top{
+	width: 690rpx;
+	height: 26rpx;
+	/* margin-top: 32rpx; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.management-box-top image{
+	width: 30rpx;
+	height: 30rpx;
+	vertical-align: middle;
+	margin-right: 8rpx;
+}
+.management-box-top .order-number{
+	font-size:24rpx;
+	font-family:Noto Sans S Chinese;
+	font-weight:bold;
+	color:rgba(51,51,51,1);
+}
+.management-box-top .order-status{
+		background-image: -webkit-gradient(linear,
+			0 0,
+			0 bottom,
+			from(#FF9650),
+			to(#FF6600));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-size:24rpx;
+		font-family:Noto Sans S Chinese;
+		font-weight:400;
+}
+
+/* 中部 */
+.management-box-middle{
+	width: 690rpx;
+	height: 156rpx;
+	display: flex;
+	margin-top: 26rpx;
+}
+.management-box-middle image{
+	width: 188rpx;
+	height: 148rpx;
+	border-radius: 12rpx;
+	margin-right: 16rpx;
+	vertical-align: middle;
+}
+.middle-detail{
+	width: 674rpx;
+	height: 148rpx;
+	position: relative
+}
+.middle-detail .course-name{
+	display: inline-block;
+	width:392rpx;
+	height:48rpx;
+	font-size:24rpx;
+	font-family:Noto Sans S Chinese;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+}
+.course-price{
+	background-image: -webkit-gradient(linear,
+		0 0,
+		0 bottom,
+		from(#FF9650),
+		to(#FF6600));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size:28rpx;
+	font-family:Noto Sans S Chinese;
+	font-weight:400;
+	position: absolute;
+	top: 2rpx;
+	right: 0rpx;
+}
+.course-class{
+	font-size:26rpx;
+	font-family:Noto Sans S Chinese;
+	font-weight:400;
+	letter-spacing: 1rpx;
+	position: absolute;
+	bottom: 2rpx;
+	left: 0rpx;
+	color:rgba(153,153,153,1);
+}
+/* 合计 */
+.management-box-bottom{
+	width: 690rpx;
+	text-align: right;
+	height: 56rpx;
+	margin-top: 10rpx;
+	border-bottom: 1px solid #cccccc;
+
+}
+.management-box-bottom text:nth-child(1){
+	font-size:24rpx;
+	font-family:Noto Sans S Chinese;
+	font-weight:400;
+	color:rgba(153,153,153,1);
+}
+.management-box-bottom text:nth-child(2){
+	font-size:34rpx;
+	font-family:Noto Sans S Chinese;
+	font-weight:bold;
+	color:rgba(153,153,153,1);
+	background:linear-gradient(0deg,rgba(255,102,0,1) 0%, rgba(255,150,80,1) 100%);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+/* 评价按钮 立即付款按钮*/
+.commonBtn{
+	width: 174rpx;
+	height: 50rpx;
+	text-align: center;
+	border-radius: 26rpx;
+	font-size: 25rpx;
+	font-family: Noto Sans S Chinese;
+	color: #ffffff;
+	background: -webkit-linear-gradient(top, #FF9650 0%,#FF6804 100%);
+	position: absolute;
+	right: 78rpx;
+	bottom: 18rpx;
+	line-height: 50rpx;
+	letter-spacing: 5rpx;
+	box-shadow: 0rpx 0rpx 10rpx #FF9650;
+}
+/* 删除订单 */
+.delete-order{
+	width: 174rpx;
+	height: 50rpx;
+	text-align: center;
+	border-radius: 26rpx;
+	font-size: 25rpx;
+	position: absolute;
+	right: 274rpx;
+	bottom: 15rpx;
+	line-height: 50rpx;
+	letter-spacing: 5rpx;
+	font-family:Noto Sans S Chinese;
+	font-weight:400;
+	color:rgba(153,153,153,1);
+	border: 1px solid rgba(153,153,153,1);
+}
